@@ -27,3 +27,8 @@ main .selection ul li.active {
 .selection .show {
     display: block;
 }
+
+#hu {
+    width: 39px;
+    height: 43px;
+}
