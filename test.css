@@ -31,4 +31,5 @@ main .selection ul li.active {
 #hu {
     width: 39px;
     height: 43px;
+    background-color: #333;
 }
