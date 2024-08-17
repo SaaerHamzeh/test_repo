@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./test.css">
+    <!-- <link rel="stylesheet" href="./bootstrap5/css/bootstrap.css"> -->
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <!-- <div class="span"><span style="font-weight: bold; font-size:large; ">ADD a SRC center </span></div> -->
+        <div class="selection">
+
+            <!-- <select name="" id="src_centers_tabs">
+                <option id="src_centers_tab1" class="active">ADD</option>
+                <option id="src_centers_tab2">MODIFY</option>
+                <option id="src_centers_tab3">DELETE</option>
+            </select> -->
+
+            <ul id="src_centers_tabs">
+                <li id="src_centers_tab1">add</li>
+                <li id="src_centers_tab2">MODIFY</li>
+                <li id="src_centers_tab3">DELETE</li>
+            </ul>
+
+            <div class="src_centers_tab1 show">
+                <form action="">
+                    <label for="">enter the number of SRC center</label>
+                    <input type="text" name="text">
+                    <label for="">select how many abulance does the center has</label>
+                    <input type="range" name="range">
+                    <label for="">determine the location of the center</label>
+                    <input type="text" name="text">
+                </form>
+            </div>
+            <div class="src_centers_tab2">
+                <form action="">
+                    <label for="">center name editting</label>
+                    <input type="text" name="text">
+                    <label for="">abulance editting</label>
+                    <input type="range" name="range">
+                    <label for="">location editting</label>
+                    <input type="text" name="text">
+                </form>
+            </div>
+            <div class="src_centers_tab3">
+                <form action="">
+                    <label for="">enter the name of the center that you want to delete</label>
+                    <input type="text" name="text">
+                </form>
+            </div>
+
+        </div>
+    </main>
+    <script src="jquery-3.6.0.js"></script>
+    <script src="test.js"></script>
+</body>
+
+</html>
